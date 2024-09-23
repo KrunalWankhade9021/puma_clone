@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* --margin-left:30px; */
+    font-family: 'puma',monospace;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+   
+    /* flex-wrap: wrap; */
+    /* overflow-x: hidden; */
+}
+.u-bar{
+    display: flex;
+    height: 44px;
+    background-color: #8a7350;
+    align-items: center;
+    justify-content: center;
+}
+.u-bar p{
+    text-align: center;
+    color: #ffffff;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+
+    
+}
+.hero-section {
+    background-image: url(/img/hero_backgroud.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 2160px; */
+    height: 500px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#181818;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    
+}
+nav ul li{
+    list-style: none;
+    cursor:pointer;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo img {
+    width: 40px;
+    margin: var(--margin);
+}
+.comple-nav{
+    display: flex;
+    gap: 30px;
+}
+.container{
+    margin-left: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    gap: 30px;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+.search-bar input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border: 1px white solid;
+    padding: 15px 15px;
+    width: 120px;
+    border-radius: 2px;
+    height: 40px;
+    
+}
+.icons i{
+    font-size: large;
+    color: #ffffff;
+}
+.mini-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+.hero-section{
+    display: flex;
+    justify-content: end;
+}
+.big-heading{
+    font-size: 50px;
+    line-height: 45px;
+    letter-spacing: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.txt{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+.timer-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    /* transform: translateX(20px); */
+}
+.timer-hero button {
+    border: none;
+    background-color: white;
+    font-size: large;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+.trend h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.trend h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.trend p{
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 16px;
+}
+.circle{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.one{
+    background-image: url(/img/circle/2.webp);
+  
+}
+.two{
+    background-image: url(/img/circle/3.webp);
+
+}
+
+.three{
+    background-image: url(/img/circle/4.webp);
+
+}
+.four{
+    background-image: url(/img/circle/5.webp);
+
+}
+.five{
+    background-image: url(/img/circle/2.webp);
+   
+}
+
+#goal{
+    width: 88px;
+    height: 88px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px orange solid;
+}
+
+
+.second-hero{
+    background-image: url(/img/second_hero.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 2160px; */
+    height: 500px; 
+    /* margin-top: 75px; */
+    display: flex;
+    align-items: center;
+}
+.third-hero{
+    background-image: url(/img/third_hero.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 2160px; */
+    height: 500px; 
+
+}
+
+.mini-second-hero{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    flex-direction: column;
+}
+.mini-big-heading{
+    line-height: 44px;
+    letter-spacing: normal;
+}
+#mid{
+    margin-top: -40px;
+    text-align: center;
+    transform: translate(-80px);
+}
+#below-mid{
+    margin-top: -40px;
+}
+/* .mini-third-hero{
+    justify-content: end;
+} */
+.third-hero{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+.fourth-hero{
+    background-image: url(/img/four_hero.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    /* width: 2160px; */
+    height: 500px; 
+    display: flex;
+}
+
+/* .third-hero button{
+    margin-top: 25px;
+} */
+#third-below{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.fifth-hero{
+    background-image: url(/img/5.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    /* width: 2160px; */
+    height: 700px; 
+    margin-top: 25px;
+}
+.brand{
+    font-size: 24px;
+    line-height: 31.992px;
+    text-align: start;
+    letter-spacing: normal;
+    color: #191919; /* Text fill color */
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+    
+}
+.shoes-card img{
+    width: 208px;
+    height: 208px;
+}
+.shoes{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px black solid; */
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+/* .text-price{
+    display: flex;
+   justify-content: space-between;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #191919;
+    font-size: 12px;
+} */
+.img-shoe img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: auto;
+}
+.text-price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: -3.5px;
+    
+}
+.shoes-card{
+    display: flex;
+    margin: 2px;
+    gap: 12px;
+    margin-right: 10px;
+}
+.second-shoes-section{
+    display: flex;
+}
+.shoes_section_2{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+
+.shoes-card {
+    display: flex;
+    flex-direction: row;  /* Make items align in a row */
+    overflow-x: auto;     /* Enables horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    padding: 10px;
+    gap: 20px;            /* Space between shoe cards */
+}
+
+.shoes-card::-webkit-scrollbar {
+    height: 8px;          /* Height of horizontal scrollbar */
+}
+
+.shoes-card::-webkit-scrollbar-thumb {
+    background-color: #888; /* Customize the scrollbar */
+    border-radius: 10px;
+}
+
+.shoes-card::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* On hover */
+}
+
+.shoes {
+    min-width: 200px;     
+    flex-shrink: 0;      
+    padding: 10px;
+    text-align: center;
+}
+.shoes:hover{
+    cursor: pointer;
+}
+.cursor:hover{
+    cursor: pointer;
+}
+.fifth-hero{
+    background-image: url(/img/last_hero.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    /* width: 2160px; */
+    height: 500px; 
+    display: flex;
+}
